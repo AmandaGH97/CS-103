@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-color: darkslateblue;
+    font-family: AppleGothic, serif;
+}
+
+nav{
+    background-color: lightsalmon;
+    padding: 3% 0;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 1%;
+    border: darkorange 5px solid;
+    margin: 0 7%;
+    font-size: calc(1px + 1vw);
+    font-family: AppleGothic, serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: darkorange;
+    text-align: center;
+    font-family: AppleGothic, serif;
+}
+
+footer{
+    background-color: darkslateblue;
+    font-family: AppleGothic, serif;
+}
+
+main div {
+    margin-left: 80%;
+}

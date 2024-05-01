@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-color: aqua;
+}
+
+nav{
+    background-color: darkorange;
+    padding: 3% 0;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 1%;
+    border: lightpink 5px solid;
+    margin: 0 1%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: gold;
+}
+
+footer{
+    background-color: aqua;
+}
+
+main div {
+    margin-left: 14%;
+}

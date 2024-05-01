@@ -1,0 +1,23 @@
+nav li{
+    display: inline;
+    padding: 1%;
+    border: brown 5px solid;
+    margin: 0 1%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: darkorchid;
+}
+
+footer{
+    background-color: darkgray;
+}
+
+main div {
+    margin-left: 50%;
+}

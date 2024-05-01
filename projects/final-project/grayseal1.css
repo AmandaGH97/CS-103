@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin: 2%;
+}
+
+main h1 {
+    font-family: "lullabies-regular-fill", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: calc(2px + 4vw);
+}
+
+#fun-fact {
+    margin-top: -2vh;
+    border: 4px dotted white;
+    background-color: antiquewhite;
+    font-size: calc(2px + 1vw);
+    border-radius: 24px;
+    padding: 3%;
+}
+
+.scrollview {
+    margin-bottom: 3vh;
+    font-size: calc(2px + 1.5vw);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scrollview p {
+    margin-bottom: 2vh;
+}
+
+/* slider*/
+/*.slider {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    overflow: hidden;*/
+/*    border-radius: 1em;*/
+/*    width: 800px;*/
+/*    height: 500px;*/
+/*    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);*/
+/*    -webkit-tap-highlight-color: transparent;*/
+
+/*}*/
+
+.img-container {
+    display: flex;
+    transition: transform 300ms ease-in-out;
+}
+.previous {
+    left: 4.5rem;
+}
+
+.next {
+    right: 4.5rem;
+}
+
+/* scroll picture*/
+.book_container {
+    background-color: #008E9F;
+    /*padding: 10%;*/
+    /*margin: 10%*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    transition: all 0.5s;
+    /*float:left;*/
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    /*width: 30%;*/
+    border: 3px solid black;
+}
+#book_container1 {
+    /*float:left;*/
+    background-color: #008E9F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    transition: all 0.5s;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: 3px solid black;
+}
+#book_container2 {
+    /*float:left;*/
+    display: flex;
+    background-color: #008E9F;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    transition: all 0.5s;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: 3px solid black;
+}
+
+.book {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 65%;
+    clear-side: right;
+}
+/*.info {*/
+/*    !*float: left;*!*/
+/*    !*width: 40%;*!*/
+/*    margin-top: 2vh;*/
+/*    text-align: center;*/
+/*}*/
+/*.book, .info {*/
+/*    width: 100%;*/
+/*}*/
+.book img {
+    width: 100%;
+    border: 4px dashed white;
+}
+.book_container, #book_container1, #book_container2 {
+    flex-direction: column;
+}
+/*picture button scroll*/
+button {
+    padding: 1%;
+    margin-bottom: 1vh;
+    background-color: transparent;
+    border: none;
+    margin-top: 1vh;
+    display: block;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 20;
+}
+
+#left, #right{
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+}
+#left {
+    left: 180px;
+}
+#right {
+    right: 180px;
+}
+
+#behavior {
+    background-color: #008E9F;
+    border: 3px solid black;
+    margin: 15vh 3%;
+    padding: 3%;
+}
+#behavior p {
+    font-size: calc(2px + 1.5vw);
+    line-height: 1.5em;
+    width:50%;
+}
+
+#bh {
+    display: flex;
+    flex-direction: row;
+}
+#sealbh {
+    width: 60%;
+    margin-left: 3vh;
+}
+#sealbh img {
+    max-width: 100%;
+    border: 3px dashed antiquewhite;
+}
+
+/*footer*/
+footer {
+    background-color: #008E9F;
+    position: relative;
+    text-align: center;
+    padding: 3%;
+    color: antiquewhite;
+    line-height: 2em;
+    border-top: 3px solid black;
+}
+
+/*remove footer a decoration */
+a {
+    text-decoration: none;
+    color: #014558;
+}
+a:hover {
+    color: #62615F
+}
+
+/* div appearance*/
+#appearance p {
+    font-size: calc(2px + 1.5vw)
+}
+
+#appearance {
+    margin-bottom: 5%;
+}

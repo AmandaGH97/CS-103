@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+}
+
+#page-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    visibility: hidden;
+}
+
+header{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+nav{
+    background-color: olive;
+    padding: 3% 0;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 1%;
+    border: brown 5px solid;
+    margin: 0;
+    font-size: calc(1px + 1vw);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: khaki;
+}
+
+footer{
+    background-color: goldenrod;
+}
+
+main div {
+    margin-left: 14%;
+}

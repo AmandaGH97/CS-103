@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#background-container{
+    background-image: url("src/calcbackgroundimage.jpg");
+}

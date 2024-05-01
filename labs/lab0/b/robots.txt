@@ -1,0 +1,6 @@
+User-agent*
+
+Disallow/cs-103/
+Allow: /cs-103/lab3/b
+
+Sitemap: https://cs-people.bu.edu/acharlot/cs-103/labs/lab3/b/sitemap-xoxo.xml
